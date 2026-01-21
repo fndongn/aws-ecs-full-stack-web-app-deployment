@@ -6,8 +6,8 @@ pipeline {
         AWS_REGION = 'us-east-1'
 
         // ECR repository URIs
-        FRONTEND_REPO = '396044748166.dkr.ecr.us-east-1.amazonaws.com/deployment-ecs-frontend:latest'
-        BACKEND_REPO  = '396044748166.dkr.ecr.us-east-1.amazonaws.com/deployment-ecs-backend:latest'
+        FRONTEND_REPO = '396044748166.dkr.ecr.us-east-1.amazonaws.com/deployment-ecs-frontend'
+        BACKEND_REPO  = '396044748166.dkr.ecr.us-east-1.amazonaws.com/deployment-ecs-backend'
     }
 
     stages {
