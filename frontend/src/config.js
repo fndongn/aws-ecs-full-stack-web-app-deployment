@@ -1,4 +1,4 @@
 const config = {
-  backendUrl: "http://10.0.2.15:8080",
+  backendUrl: "http://deployment-ecs-alb-315687768.us-east-1.elb.amazonaws.com/api",
 };
 export default config;
