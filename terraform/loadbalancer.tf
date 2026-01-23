@@ -81,7 +81,7 @@ resource "aws_lb_listener" "frontend" {
 # ALB Listener Rule for Backend API
 resource "aws_lb_listener_rule" "backend" {
   listener_arn = aws_lb_listener.frontend.arn
-  priority     = 100
+  priority     = 1
 
   action {
     type             = "forward"
