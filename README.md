@@ -42,3 +42,4 @@ This project is a containerized full-stack web application deployed on AWS ECS u
    * Automating deployments to avoid manual Docker builds and ECS updates
    * Providing a scalable, production-ready architecture using AWS best practices
       
+<img width="2078" height="1042" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/f3e56ce2-cff6-4d7c-ac6a-097ffb79dfd1" />
