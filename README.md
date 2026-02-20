@@ -44,5 +44,5 @@ This project is a containerized full-stack web application deployed on AWS ECS u
      
 # 8. Architecture Diagram
       
-<img width="2078" height="1042" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/a86c4b9a-60cb-49d2-bc84-4e6a0ded81c9" />
+<img width="2083" height="1043" alt="Architectur Diagram" src="https://github.com/user-attachments/assets/e0466c88-ec9d-4c60-b094-a8982bf75d20" />
 
