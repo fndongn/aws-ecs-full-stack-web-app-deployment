@@ -43,6 +43,5 @@ This project is a containerized full-stack web application deployed on AWS ECS u
    * Providing a scalable, production-ready architecture using AWS best practices
      
 # 8. Architecture Diagram
-      
-<img width="2083" height="1043" alt="Architectur Diagram" src="https://github.com/user-attachments/assets/e0466c88-ec9d-4c60-b094-a8982bf75d20" />
+<img width="2110" height="1042" alt="Architectur Diagram" src="https://github.com/user-attachments/assets/f62d22c6-76fe-4b20-a8fe-0ff1e460d0d4" />
 
