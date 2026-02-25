@@ -27,7 +27,7 @@ This project is a containerized full-stack web application deployed on AWS ECS u
  * Jenkins forces a new ECS deployment
  * ECS performs a rolling update, replacing old tasks with new ones without downtime
 
-# 6. Key Technologies
+# 6. Tech stack
  * React – Frontend
  * Node.js / Express – Backend API
  * Docker – Containerization
