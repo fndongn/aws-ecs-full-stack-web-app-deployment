@@ -28,6 +28,7 @@ This project is a containerized full-stack web application deployed on AWS ECS u
  * ECS performs a rolling update, replacing old tasks with new ones without downtime
 
 # 6. Tech stack
+ * Terraform provisions AWS infrastructure
  * React – Frontend
  * Node.js / Express – Backend API
  * Docker – Containerization
