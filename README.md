@@ -37,11 +37,18 @@ This project is a containerized full-stack web application deployed on AWS ECS u
  * Jenkins – CI/CD automation
 
 # 7. Problem It Solves
-  # This project solves the challenge of reliably deploying and scaling a modern web application by:
+  This project solves the challenge of reliably deploying and scaling a modern web application by:
    * Eliminating hard-coded service dependencies through ALB routing
    * Preventing frontend/backend communication issues in containerized environments
    * Automating deployments to avoid manual Docker builds and ECS updates
    * Providing a scalable, production-ready architecture using AWS best practices
+     
+# 8. Lessons Learned
+   * Dockerizing frontend & backend ensures consistent, reproducible deployments.
+   * Jenkins CI/CD pipelines automate builds, ECR pushes, and zero-downtime ECS updates.
+   * Path-based ALB routing simplifies frontend/backend separation and improves reliability.
+   * Monitoring ECS tasks and logs is essential for diagnosing runtime issues quickly.
+   * Automating deployments reduces manual errors and accelerates development cycles.
      
 
 
