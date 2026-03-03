@@ -45,8 +45,9 @@ This project is a containerized full-stack web application deployed on AWS ECS u
      
 # 8. Lessons Learned
    * Dockerizing frontend & backend ensures consistent, reproducible deployments.
+   * Running Jenkins as a container simplifies setup, isolates dependencies, and makes CI/CD pipelines portable.
    * Jenkins CI/CD pipelines automate builds, ECR pushes, and zero-downtime ECS updates.
-   * Path-based ALB routing simplifies frontend/backend separation and improves reliability.
+   * ALB path-based routing directs requests to frontend or backend automatically, keeping services organized and improving reliability
    * Monitoring ECS tasks and logs is essential for diagnosing runtime issues quickly.
    * Automating deployments reduces manual errors and accelerates development cycles.
      
