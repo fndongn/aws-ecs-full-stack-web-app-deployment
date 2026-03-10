@@ -37,19 +37,26 @@ This project is a containerized full-stack web application deployed on AWS ECS u
  * Jenkins – CI/CD automation
 
 # 7. Problem It Solves
-  This project solves the challenge of reliably deploying and scaling a modern web application by:
-   * Eliminating hard-coded service dependencies through ALB routing
-   * Preventing frontend/backend communication issues in containerized environments
-   * Automating deployments to avoid manual Docker builds and ECS updates
-   * Providing a scalable, production-ready architecture using AWS best practices
+ This project solves the challenge of reliably deploying and scaling a modern web application by:
+ * Eliminating hard-coded service dependencies through ALB routing
+ * Preventing frontend/backend communication issues in containerized environments
+ * Automating deployments to avoid manual Docker builds and ECS updates
+ * Providing a scalable, production-ready architecture using AWS best practices
      
 # 8. Lessons Learned
-   * Dockerizing frontend & backend ensures consistent, reproducible deployments.
-   * Running Jenkins as a container simplifies setup, isolates dependencies, and makes CI/CD pipelines portable.
-   * Jenkins CI/CD pipelines automate builds, ECR pushes, and zero-downtime ECS updates.
-   * ALB path-based routing directs requests to frontend or backend automatically, keeping services organized and improving reliability
-   * Monitoring ECS tasks and logs is essential for diagnosing runtime issues quickly.
-   * Automating deployments reduces manual errors and accelerates development cycles.
+ Challenges
+ * Integrating multiple services in Amazon Web Services (ECS, ECR, networking, and load balancing) required careful configuration to ensure containers, networking, and deployments worked together correctly.
+ * Configuring path-based routing in the Amazon Web Services Application Load Balancer required precise rules to correctly route frontend and backend requests.
+ * Automating the CI/CD pipeline with Jenkins involved handling Docker builds, image tagging, authentication, and pushing images to Amazon Web Services ECR.
+ * Debugging containerized services running in Amazon Web Services ECS required monitoring logs, task health, and deployment events to identify and resolve runtime issues.
+
+Lessons Learned
+ * Dockerizing frontend & backend ensures consistent, reproducible deployments.
+ * Running Jenkins as a container simplifies setup, isolates dependencies, and makes CI/CD pipelines portable.
+ * Jenkins CI/CD pipelines automate builds, ECR pushes, and zero-downtime ECS updates.
+ * ALB path-based routing directs requests to frontend or backend automatically, keeping services organized and improving reliability
+ * Monitoring ECS tasks and logs is essential for diagnosing runtime issues quickly.
+ * Automating deployments reduces manual errors and accelerates development cycles.
      
 
 
