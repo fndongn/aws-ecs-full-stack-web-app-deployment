@@ -43,7 +43,7 @@ This project is a containerized full-stack web application deployed on AWS ECS u
  * Automating deployments to avoid manual Docker builds and ECS updates
  * Providing a scalable, production-ready architecture using AWS best practices
      
-# 8. Lessons Learned
+# 8. Challenges and Lessons Learned
  Challenges
  * Integrating multiple services in Amazon Web Services (ECS, ECR, networking, and load balancing) required careful configuration to ensure containers, networking, and deployments worked together correctly.
  * Configuring path-based routing in the Amazon Web Services Application Load Balancer required precise rules to correctly route frontend and backend requests.
@@ -51,12 +51,10 @@ This project is a containerized full-stack web application deployed on AWS ECS u
  * Debugging containerized services running in Amazon Web Services ECS required monitoring logs, task health, and deployment events to identify and resolve runtime issues.
 
 Lessons Learned
- * Dockerizing frontend & backend ensures consistent, reproducible deployments.
- * Running Jenkins as a container simplifies setup, isolates dependencies, and makes CI/CD pipelines portable.
- * Jenkins CI/CD pipelines automate builds, ECR pushes, and zero-downtime ECS updates.
- * ALB path-based routing directs requests to frontend or backend automatically, keeping services organized and improving reliability
- * Monitoring ECS tasks and logs is essential for diagnosing runtime issues quickly.
- * Automating deployments reduces manual errors and accelerates development cycles.
+ * Containerizing applications with Docker ensures consistent environments across development, CI/CD pipelines, and production.
+ * Managing infrastructure with Terraform improves reproducibility, scalability, and simplifies infrastructure management.
+ * Running Jenkins as a container makes CI/CD pipelines portable, easier to maintain, and isolated from host dependencies.
+ * Using an Amazon Web Services Application Load Balancer with path-based routing improves service separation while maintaining a single entry point for the application.
      
 
 
